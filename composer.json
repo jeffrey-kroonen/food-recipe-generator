@@ -1,0 +1,24 @@
+{
+    "name": "jeffrey/food-recipe-generator",
+    "description": "An app to generate random food recipes by an api.",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jeffrey Kroonen",
+            "email": "jeffreykroonen@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "FoodRecipeGenerator\\App\\": "app/"
+        }
+    }
+}
